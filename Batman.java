@@ -6,8 +6,8 @@ class BATMAN {
         return np*ps1;
     }
      
-	public static void main (String[] args) {
-		System.out.println(findNumOfStepsRequired(3, 10));
+    public static void main (String[] args) {
+	System.out.println(findNumOfStepsRequired(3, 10));
 		
-	}
+    }
 }
