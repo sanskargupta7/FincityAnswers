@@ -1,3 +1,5 @@
+//The function would return one of the possible solutions for the given problem
+
 import java.io.*;
 
 class GrootPie {
