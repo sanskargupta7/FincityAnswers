@@ -26,7 +26,7 @@ class SupermanAndBottleCityOfKandor {
     
     
     //This function returns the first habitable planet 
-    public static int fun(double[][][] a, double[] b){
+    public static int findPlanet(double[][][] a, double[] b){
         double min = b[0];
         double max = b[1];
         double sum;
@@ -52,7 +52,7 @@ class SupermanAndBottleCityOfKandor {
 		double[][][] a = {{{0.433, 200}}, {{0.89, 400}, {0.6, 300}}};
 		double[] b = {0.003, 0.005};
 		
-		System.out.println(fun(a, b));
+		System.out.println(findPlanet(a, b));
 		
 	}
 }
