@@ -1,3 +1,5 @@
+//the written function both prints and returns the output for the required question
+
 import java.io.*;
 
 class IRONMAN {
@@ -14,7 +16,7 @@ class IRONMAN {
             }
         }
         
-        int max = Integer.MIN_VALUE;
+        int max = Integer.MIN_VALUE;                            // here we calculated the maximum value for final result
         int mi = 0;
         
         for(int k = 0; k<p.length; k++){
