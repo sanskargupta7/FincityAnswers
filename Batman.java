@@ -1,3 +1,5 @@
+//The number of steps Batman has to make is equal to number to steps taken by the last prisoner
+
 import java.io.*;
 
 class BATMAN {
